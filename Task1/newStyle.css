@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: bisque;
+}
+/*--------------namer code starts here---------*/
+.namer{
+    background-image: url('images/background1.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    size-adjust: 500px;
+
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    color:navy;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    transition: 3.s;
+}
+
+
+/* ----------- #home code starts here------------------*/
+#home {
+    display: flex;
+    align-items: center;
+    height:130vh; /* Adjust as needed */
+    flex-direction: column;
+    color:whitesmoke;
+    font-size: large;
+    margin-left: 20px;
+    filter: brightness(100%);
+}
+/* Additional styles for the contenst within the #home section */
+#home h1 {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:black;
+
+}
+
+#home p {
+    max-width: 600px;
+    color:rgb(7, 3, 19);
+    font: size 50px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: bisque;
+}
+/*-----------about code starts here------------------*/
+#about
+{
+    text-align: center;
+    background-color: bisque;
+    color:black;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#about #q1
+{
+    color:black;
+    text-align: justify;
+    font-weight: bold;
+}
+#about #q2
+{
+    color:black;
+    text-align: justify;
+    font-weight: bold;
+}
+#about p
+{
+    text-align: justify;
+    color:black;
+    padding-bottom: 20px;
+}
+#about #offer
+{
+    color:#fff;
+    text-align: justify;
+    background-color: black
+}
+/*-----------categories code starts here-----*/
+
+.section {
+    text-align: center;
+    padding:0,50px;
+    background-color: bisque;
+}
+
+.categories {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+.categories h2
+{
+    background-color: bisque;
+}
+
+.category-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.category {
+    margin: 0 10px;
+
+}
+.category p
+{
+    font-weight: bold;
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed */
+}
+.slider  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*----------footer code and contact code starts here---------*/
+#contact
+{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+.footer p{
+    font-size: larger;
+}
+.contact-info {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.cat {
+    flex-basis: calc(50% - 20px);
+}
+
+.cat ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cat li {
+    margin-bottom: 5px;
+}
+
+.resources {
+    flex-basis: 100%;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
+.resources p
+{
+    text-align: center;
+
+}
+
+
+.slider {
+    text-align: center;
+    padding: 50px 0;
+    background-color: bisque;
+}
+.slider p
+{
+    color:
+    text-size-adjust: 80 px;
+    font-size: larger;
+    background-color:bisque;
+}
+.slider a
+{
+    display: inline;
+    width: 25%;
+    min-height: 40px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.image-container {
+
+    background-color: bisque;
+    position: relative;
+    width: 600px; /* desired width */
+    height: 400px; /*  desired height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    
+}
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.arrow:hover {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
